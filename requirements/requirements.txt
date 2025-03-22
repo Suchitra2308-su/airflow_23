@@ -1,5 +1,5 @@
 pandas==2.1.4          # Data manipulation and analysis
 xgboost==1.7.6          # Gradient boosting framework
 mlflow==2.5.0           # Machine Learning lifecycle management
-boto3==1.26.160         # AWS SDK for Python
+boto3==1.35.36          # AWS SDK for Python
 imbalanced-learn==0.10.1  # Handling imbalanced datasets
