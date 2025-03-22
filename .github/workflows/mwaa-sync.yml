@@ -28,6 +28,5 @@ jobs:
       # Sync Airflow files to S3
       - name: Sync Airflow files to S3
         run: |
-          aws s3 sync dags/ s3://your-mwaa-bucket-name/dags/ --follow-symlinks --delete
-          aws s3 sync plugins/ s3://your-mwaa-bucket-name/plugins/ --follow-symlinks --delete
-          aws s3 sync requirements/ s3://your-mwaa-bucket-name/requirements/ --follow-symlinks --delete
+          aws s3 sync dags/ s3://${{ secrets.MWAA_BUCKET }}/dags/ --follow-symlinks --delete
+          aws s3 sync requirements/ s3://${{ secrets.MWAA_BUCKET }}/requirements/ --follow-symlinks --delete
