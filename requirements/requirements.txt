@@ -2,3 +2,4 @@ pandas
 mlflow
 boto3
 imbalanced-learn
+xgboost
