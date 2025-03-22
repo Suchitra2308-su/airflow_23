@@ -1,4 +1,4 @@
-pandas==1.5.3           # Data manipulation and analysis
+pandas==2.1.4          # Data manipulation and analysis
 xgboost==1.7.6          # Gradient boosting framework
 mlflow==2.5.0           # Machine Learning lifecycle management
 boto3==1.26.160         # AWS SDK for Python
